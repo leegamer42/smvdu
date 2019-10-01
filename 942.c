@@ -46,13 +46,13 @@ int main()
 {
     int x1,v1,x2,v2;
     printf("enter the starting point of 1st kangaroo:");
-    scanf("%d\n", &x1);
+    scanf("\n%d", &x1);
         printf("enter the speed of first kangaroo:");
-    scanf("%d\n", &v1);
+    scanf("\n%d", &v1);
         printf("enter the starting point of 2nd kangaroo:");
-    scanf("%d\n", &x2);
+    scanf("\n%d", &x2);
         printf("enter the speed of second kangaroo:");
-    scanf("%d\n", &v2);
+    scanf("\n%d", &v2);
     kangaroo(x1,v1,x2,v2);
     return 0;
 }
