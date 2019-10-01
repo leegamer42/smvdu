@@ -1,4 +1,4 @@
-/* 
+/*
 Name :- Vinayak Sharma
 SMVDU, jammu ECE
 code description:- This code will compare the entered input numbers. if a number is repeated more than once the output will be 0 and if all the numbers are different the output will be 1.
@@ -7,10 +7,11 @@ code description:- This code will compare the entered input numbers. if a number
 int main()
 {
     int a, b, c;
+    printf("enter the number 1 , 2 and 3");
     scanf("%d", &a); /*this will input the first number*/
     scanf("%d", &b); /*this will input the second number*/
     scanf("%d", &c); /*this will input the third number*/
-    
+
     if ((a == b) || (b == c) || (a == c)) /*if statement with OR operator which will check if 2 or more numbers are same*/
                                          {
                                             printf("0"); /* this will print 0 */
