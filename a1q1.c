@@ -6,12 +6,15 @@ code description:- This code will compare the entered input numbers. if a number
 #include <stdio.h>
 int main()
 {
-    int a, b, c,d;
-    scanf("%d", &a); /*this will input the first number*/
-    scanf("%d", &b); /*this will input the second number*/
-    scanf("%d", &c); /*this will input the third number*/
-    d=((a==b)||(b==c)||(c==a))?0:1;
-    printf("%d",d);
-
+    int a, b, c;
+    scanf("%d%d%d", &a,&b,&c); /*this will input the all the numbers at once*/
+    if ((a == b) || (b == c) || (a == c)) /*if statement with OR operator which will check if 2 or more numbers are same*/
+            {
+             printf("0"); /* this will print 0 */
+            }
+    else   /* if no number is identical this else statement will run and display the result as 1 */
+            {
+                printf("1"); /* this will print 1 */
+            }
     return 0;
 }
