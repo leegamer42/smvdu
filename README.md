@@ -1,9 +1,11 @@
 # smvdu
-smvdu code club codes
 
-Put different type of codes that you make into this repository!
-happy coding!
+READ THIS!
+1. dont upload code in the main file
+2. update your name in the contributor.md
+3. UPLOAD ALL CODES IN CODING FILE
+4. dont put anything in the nptel folder except for nptel assignment questions
 
-all the codes have been moved inside the nptel folder
-
-The new coding folder is for you to add new and different type of algo codes
+THANK YOU!
+get that hacktoberfest swag by using this repo!
+spread the word!
