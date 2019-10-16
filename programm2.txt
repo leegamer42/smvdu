@@ -1,0 +1,19 @@
+#include<stdio.h>
+main()
+{
+	int i,num1,num2,hcf,lcm;
+	printf("enter the first no");
+	scanf("%d",&num1);
+	printf("enter the second no");
+	scanf("%d",&num2);
+	for(i=1;i<=num1&&i<=num2;i++)
+	{
+		if(num1%i==0&&num2%i==0)
+		{
+			hcf=i;
+		}
+	}
+	lcm=(num1*num2)/hcf;
+	printf("hcf is=%d\n",hcf);
+	printf("lcm is=%d",lcm);
+}
