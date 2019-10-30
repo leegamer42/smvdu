@@ -1,0 +1,44 @@
+#include <assert.h>
+#include <limits.h>
+#include <math.h>
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+int s,t,a,b,n,m,i;
+int count=0;
+int count2=0;
+scanf("%d",&s);
+scanf("%d",&t);
+scanf("%d",&a);
+scanf("%d",&b);
+scanf("%d",&n);
+scanf("%d",&m);
+int arr1[m],arr2[n];
+for(i=0;i<m;i++)
+{ scanf("%d",&arr1[i]);
+}
+for(i=0;i<n;i++)
+{
+    scanf("%d",&arr2[i]);
+}
+for(i=0;i<m;i++)
+{
+    arr1[i]=arr1[i]+a;
+    if(arr1[i]>=s && arr2[i]<=t)
+   {count=count+1;}
+}
+for(i=0;i<n;i++)
+{
+    arr2[i]=arr2[i]+b;
+    if(arr2[i]>= s&& arr2[i]<=t)
+    {count2=count2+1;}
+}
+printf("%d\n",count);
+printf("%d",count2);
+}
